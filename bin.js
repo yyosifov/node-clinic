@@ -255,7 +255,7 @@ function runTool (args, Tool, version) {
   } else {
     tool.collect(args['--'], function (err, filename) {
       if (err) throw err
-      console.log('Analysing data')
+      console.log('Analyzing data')
 
       viz(filename, function (err) {
         if (err) throw err
